@@ -1,0 +1,26 @@
+[0] Config.pm:320> INFO - This is Biber 1.9
+[1] Config.pm:323> INFO - Logfile is 'thesis.blg'
+[40] biber:277> INFO - === Wed Apr 15, 2015, 16:47:21
+[41] Biber.pm:333> INFO - Reading 'thesis.bcf'
+[128] Biber.pm:635> INFO - Found 271 citekeys in bib section 0
+[150] Biber.pm:3051> INFO - Processing section 0
+[168] Biber.pm:3189> INFO - Looking for bibtex format file 'lensing.bib' for section 0
+[174] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[181] bibtex.pm:864> INFO - Found BibTeX data source 'lensing.bib'
+[338] Biber.pm:3189> INFO - Looking for bibtex format file 'magnetar.bib' for section 0
+[343] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[349] bibtex.pm:864> INFO - Found BibTeX data source 'magnetar.bib'
+[456] Biber.pm:3189> INFO - Looking for bibtex format file 'grb.bib' for section 0
+[458] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[461] bibtex.pm:864> INFO - Found BibTeX data source 'grb.bib'
+[465] Biber.pm:3189> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[481] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[499] bibtex.pm:864> INFO - Found BibTeX data source 'thesis.bib'
+[7373] UCollate.pm:66> INFO - Overriding locale 'zh__pinyin' defaults 'variable = shifted' with 'variable = non-ignorable'
+[7373] UCollate.pm:66> INFO - Overriding locale 'zh__pinyin' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[7373] Biber.pm:2928> INFO - Sorting list 'ecnty' of type 'entry' with scheme 'ecnty' and locale 'zh__pinyin'
+[14369] UCollate.pm:66> INFO - Overriding locale 'zh__pinyin' defaults 'variable = shifted' with 'variable = non-ignorable'
+[14369] UCollate.pm:66> INFO - Overriding locale 'zh__pinyin' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[14369] Biber.pm:2928> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'zh__pinyin'
+[14870] bbl.pm:517> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[14985] bbl.pm:606> INFO - Output to thesis.bbl

@@ -1,0 +1,1293 @@
+\documentclass[a4paper,10pt,onecolumn]{article}
+\usepackage{epsf}
+\usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage{indentfirst}
+\usepackage{lscape}
+\usepackage{psfig}
+
+
+\usepackage {amsmath}
+\usepackage {amsxtra}
+\usepackage {amsbsy}
+\usepackage {amscd}
+
+\usepackage {graphicx}
+\usepackage {graphics}
+\usepackage {amssymb}
+\usepackage {amsfonts}
+\usepackage {float}
+\usepackage {indentfirst}
+
+\usepackage {a4wide}
+
+%\def\qui {1E 1547-54}
+%\def\uu {4U~0142$+$61}
+%\def\oo {1E~1048$-$59}
+%\def\kes {1E~1841$-$045}
+%\def\axj {AX~J1845$-$02}
+%\def\rxs {1RXS~J1708$-$40}
+%\def\eee {1E~2259$+$586}
+%\def\xte {XTE~J1810$-$197}
+%\def\cxo {CXOU~J1647$-$45}
+%\def\smc {CXOU~J0100-72}
+%\def\zerosei {SGR~1806$-$20}
+%\def\zerozero {SGR~1900$+$14}
+%\def\sedici {SGR~1627$-$41}
+%\def\lmc {SGR~0526$-$66}
+%\def\quil {1E 1547.0-5408}
+%\def\uul {4U~0142$+$61}
+%\def\ool {1E~1048$-$586}
+%\def\kesl {1E~1841$-$045}
+%\def\axjl {AX~J1844.8$-$0256}
+%\def\rxsl {1RXS~J170849$-$400910}
+%\def\eel {1E~2259$+$586}
+%\def\xtel {XTE~J1810$-$197}
+%\def\cxol {CXOU~J164710.2$-$455216}
+%\def\smcl {CXOU~J010043.1-721134}
+
+
+\setlength{\parindent}{25pt}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\ba}{\begin{array}{c}}
+\newcommand{\ea}{\end{array}}
+\newcommand{\bqa}{\begin{eqnarray}}
+\newcommand{\eqa}{\end{eqnarray}}
+\newcommand{\bqaa}{\begin{eqnarray*}}
+\newcommand{\eqaa}{\end{eqnarray*}}
+\renewcommand{\baselinestretch}{1.5}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\frenchspacing
+
+\linespread{1.2}
+
+
+\title{A Multiband Study of Pulsar-like Compact Stars}
+\author{Shi Dai \\
+Supervisor: Renxin Xu}
+\date{2012.4}
+\maketitle
+
+\begin{abstract}
+
+Pulsar-like compact stars as the densest observable objects in the Universe, are not only important
+in understanding diverse phenomena in high-energy astrophysics, but also significant in fundamental physics.
+%
+Besides the physics of gravity, the answer to the question that whether pulsar-like compact stars are neutron stars or quark stars
+would have profound implications on the physics of condensed matter, the nature of strong interaction
+as well as QCD phase transition.
+%
+%Multiband observations and studies have been carried out to understand diverse phenomena of
+%pulsar-like compact stars. Although a good harvest of data have been accumulated and our
+%knowledge of pulsar-like compact stars are richer than ever before, we are still far from reaching
+%the final answer and future theoretical and observational studies are necessary.
+%
+We will make a multiband study of compact stars during my PhD. The main part
+of my study will be focused on the radio and hard X-ray emission and timing properties of anomalous
+X-ray pulsars (AXPs) and soft gamma-ray repeaters (SGRs). Both theoretical and observational research
+will be carried out. For the theoretical part, the radiation mechanism of the radio and X-ray emission,
+and the origin of glitches and quasi periodic oscillations will be investigated in the context of
+``fallback disk+quark star'' model. For the observational part, I will try to distinguish different
+models based on archived data and future observations.
+%
+Besides the study of AXPs and SGRs, I will continue my study on microlensing pulsar which aims to
+determine the mass of isolated neutron stars. I will also participate radio observations of
+pulsars with the $40\ \rm{m}$ radio telescope of Yunnan Observatory.
+
+\end{abstract}
+
+\section{Background}
+
+Since discovered in 1967, pulsars have received a high degree of attention from not only
+astrophysicists but also theoretical physicists. The strong gravitational and magnetic field and the
+extremely high density of pulsars provide an unique laboratory to investigate fundamental
+physics, such as the gravity theory, the state of condensed matter, the strong interaction
+and the QCD phase transition.
+%
+Besides radio pulsars, several kinds of X-ray sources have been discovered and turned out to
+be compact stars with strong magnetic field, including X-ray pulsars, compact central
+objects (CCO), dim thermal neutron stars (DTN), anomalous X-ray pulsars (AXPs) and soft
+gamma-ray repeaters (SGRs). Their similar properties to radio pulsars indicate that they are
+a homogenous class of stars and we call them pulsar-like compact stars. Diverse and
+energetic phenomena of pulsar-like compact stars have greatly refreshed our understanding of
+the equation of state, population and evolution of pulsars and will attract increasing attention.
+%
+
+Multiband observation and study have been carried out to understand diverse phenomena of
+pulsar-like compact stars. Although a good harvest of data have been accumulated and our
+knowledge of pulsar-like compact stars are richer than ever before, there are still many
+challenges. The most thorny challenges are the energy source and the origins of multitudinous
+phenomena of AXPs and SGRs, which are closely related to the equation of state, magnetic field and
+evolution of pulsar-like compact stars. The measurement of the mass of isolated neutron
+stars is also difficult, but of great importance in studying the inner structure of pulsars.
+The answer to these questions will greatly promote our understanding of the nature of
+pulsar-like compact stars and hence help us investigate the gravity theory, the strong interaction
+and the state of condensed matter.
+%
+
+In the follow sections, I will give brief reviews of AXPs/SGRs and microlensing pulsars.
+
+\subsection{AXPs and SGRs}
+
+Among pulsar-like compact stars, anomalous X-ray pulsars (AXPs) and soft gamma-ray repeaters
+(SGRs) are two sorts of enigmatic pulsar-like objects. AXPs were first detected as soft X-ray
+sources ($<10$ keV)~\cite{Fahlman,Seward,Israel}, and SGRs were discovered through the
+detection of short bursts in the hard X-ray range~\cite{Mazets79a,Mazets79b}. People have
+realized that AXPs and SGRs were a homogenous class of pulsar-like compact stars~\cite{Mereghetti2008},
+since we have found the persistent X-ray counterparts of SGRs and also discovered bursts
+in most AXPs.
+%
+After more than $10$ years of extensive multiband observations, diverse phenomena of
+AXPs and SGRs have been presented to us. The underlying extreme astrophysical environment
+of these phenomena have attracted increasing attention, both from the physical and
+astronomical point of view~\cite{Mereghetti2008}.
+%
+
+Two prerequisite characteristics of AXPs and SGRs are the lack of evidence of binary companions
+and the X-ray luminosity larger than the spin-down power, which distinguish AXPs and SGRs from
+X-ray pulsars. AXPs and SGRs share many properties, such as the similar periods and period derivatives,
+the narrow distribution of period, absence of radio emission and association with supernova remnants.
+Table~\ref{tab-list1} and Table~\ref{tab-list2} list all the known AXPs and SGRs~\cite{Mereghetti2008}.
+In this subsection, I will briefly review some important properties of AXPs and SGRs.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{landscape}
+
+\begin{table}
+\caption{A list of all the known AXPs~\cite{Mereghetti2008}.}
+ \centering
+\label{tab-list1}
+\begin{tabular}{lcccl}
+\hline\noalign{\smallskip}
+Name           &Hard X-rays$^{(a)}$& Soft X-rays$^{(a)}$          & Distance      & Location \\[3pt]
+               &  ($>$10 keV)      & ($<$10 keV)                  & (kpc)         &  \\[3pt]
+\hline
+\textbf{Anomalous X--ray Pulsars}&&&&\\ [3pt]
+ \hline
+\smc           & -                 & P                            &  61           & SMC \\[3pt]
+\cite{lam02}   &                   & \cite{lam02}                 &               &     \\[3pt]
+ \hline
+\uu            & P                 & P                            &  3.6          &     \\[3pt]
+\cite{mer95}   & \cite{den Hartog} & \cite{Israel}                &\cite{dur06}   &     \\[3pt]
+\hline
+\oo            & D                 & P                            & 9             &     \\[3pt]
+\cite{mer95}   & \cite{Leyder}     & \cite{Seward}                &\cite{dur06}   &     \\[3pt]
+\hline
+\qui           & -                 & P,T                          & 9             & SNR G327.24--0.13 \\[3pt]
+\cite{gel07}   &                   & \cite{hal08}                 &\cite{cam07}   &     \\[3pt]
+\hline
+\cxo           &     -             & P,T                          & 3.9           & Massive Star Cluster \\[3pt]
+\cite{mun06}   &                   &\cite{mun07,isr07}            &\cite{kot07}   &  Westerlund 1     \\[3pt]
+\hline
+\rxs           & P                 & P                            & 3.8           &      \\[3pt]
+\cite{sug97}     & \cite{Kuiper06} &\cite{sug97}                  &\cite{dur06}   &      \\[3pt]
+\hline
+\xte           & -                 & P,T                          & 3.1           &      \\[3pt]
+\cite{ibr04}   &                   &\cite{ibr04}                  &\cite{dur06}   &      \\[3pt]
+\hline
+\kes           & P                 & P                            & 8.5           & SNR Kes 73\\[3pt]
+\cite{vas97}   & \cite{Kuiper04}   & \cite{vas97}                 & \cite{Tian08} &     \\[3pt]
+\hline
+\axj $^{(b)}$  & -                 & P,T                          & 8.5           & SNR G29.6+0.1 \\[3pt]
+\cite{Torii}   &                   & \cite{Torii}                 & \cite{Torii}  &     \\[3pt]
+\hline
+\eee            & -                 & P                            & 7.5           & SNR CTB 109 \\[3pt]
+\cite{mer95}   &                   &\cite{Fahlman}                & \cite{dur06}  &     \\[3pt]
+\hline
+ \hline
+\end{tabular}
+\end{table}
+
+\end{landscape}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{landscape}
+
+\begin{table}
+\caption{A list of all the known SGRs~\cite{Mereghetti2008}.}
+ \centering
+\label{tab-list2}
+\begin{tabular}{lcccl}
+\hline\noalign{\smallskip}
+Name           &Hard X-rays$^{(a)}$& Soft X-rays$^{(a)}$          & Distance      & Location \\[3pt]
+               &  ($>$10 keV)      & ($<$10 keV)                  & (kpc)         &  \\[3pt]
+\hline
+\textbf{Soft Gamma-ray Repeaters}&&&& \\ [3pt]
+ \hline
+\lmc           & -                 & P                            & 55            & LMC, SNR N49 \\[3pt]
+\cite{cli80}   &                   & \cite{rot94}                 &               &     \\[3pt]
+\hline
+\sedici        & -                 & D,T                          & 11            & \\[3pt]
+\cite{Woods99} &                   & \cite{Woods99}               & \cite{cor99}  &     \\[3pt]
+\hline
+\zerosei       & D                 & P                            & 15            & Massive Star Cluster \\[3pt]
+\cite{lar86}   &\cite{Mere05}      &\cite{Kouveliotou}            & \cite{cor04}  &     \\[3pt]
+\hline
+\zerozero      & D                 & P                            & 15            & Massive Star Cluster \\[3pt]
+\cite{Mazets79b} & \cite{Gotz}     &\cite{hur99e}                 & \cite{vrb00}  &     \\[3pt]
+\hline
+ \hline
+\end{tabular}
+
+
+ \textbf{Notes:}
+
+$^{(a)}$ D = detection; P = pulsations detected; T = transient
+
+
+$^{(b)}$ Candidate AXP (no $\dot P$ measurement)
+
+\end{table}
+
+\end{landscape}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Spectral properties}
+
+%AXPs were first detected as persistent X-ray sources, and the X-ray counterparts of
+%SGRs have also been found with similar flux.
+Although the distance to the AXPs and SGRs is hard to be determined accurately, roughly
+estimations are available according to the X-ray absorption and are supported in some
+cases by the distance estimates of the associated SNRs. Characteristic distances of at
+least a few kpc indicate the typical luminosities in the range $10^{34-36}\ \rm{erg\ s^{-1}}$,
+which is larger than the spin-down power inferred from their period and period derivatives~\cite{Mereghetti2008}.
+%
+
+AXPs have soft spectra below $10$ keV, which can be fitted by a combination of a steep
+power-law (photon index $\sim3-4$) and a blackbody with temperature $kT\sim0.5$ keV.
+The spectra of SGRs below $10$ keV are generally harder than that of AXPs, and are well
+fitted with power-laws of photon index $\sim2$. People also tried to fit the spectra
+of AXPs with two blackbody (Fig. $1$)~\cite{Mereghetti2008,hal05} and have found blackbody-like
+components in good quality spectra of SGRs (Fig. $2$)~\cite{Mereghetti2008,Mere05b,Mere06}.
+These results indicate that the soft X-ray emission is of thermal origin and the emerging
+spectrum is more complex than a simple blackbody~\cite{Mereghetti2008}.
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\centering
+ \vbox{
+\rotatebox{-90}{\includegraphics[width=8cm]{j1810_spec_hal05a.eps}}
+\rotatebox{-90}{\includegraphics[width=8cm]{j1810_spec_hal05b.eps}}}
+%\psfig{figure=j1810_spec_hal05a.eps,angle=0,width=4cm}
+%\psfig{figure=j1810_spec_hal05b.eps,angle=0,width=4cm}}
+\caption{X-ray spectrum of \xte\ measured with the XMM-Newton
+EPIC instrument (from \cite{hal05}). Equivalently good fits are
+obtained with a power law plus blackbody model (top panel) or
+with the sum of two blackbodies (bottom panel).}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\centering
+\rotatebox{-90}{\includegraphics[width=8cm]{sgr1806_spec_mer05c.eps}}
+%\psfig{figure=sgr1806_spec_mer05c.eps,angle=-90,width=8.5cm}
+\caption{XMM-Newton EPIC spectrum of \zerosei\ fitted with a power
+law plus blackbody model (from \cite{Mere05b}). The blackbody
+component is the lower curve.}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The hard X-ray emissions from AXPs and SGRs are discovered by the INTEGRAL satellite only
+a few years ago~\cite{Kuiper04,den Hartog,Mere05c,Gotz}. It is surprising considering
+the soft spectra of AXPs below $10$ keV, and even more interesting is that the spectra of
+AXPs above $20$ keV are rather hard while the spectra of SGRs are steeper. The flat spectra
+indicate that the energy released in the hard X-ray range is a significant fraction of
+the total energy output from these sources. The origin of the hard X-ray tails is still
+unclear, and we will discuss later.
+%
+
+\subsubsection{Variability properties}
+
+Short bursts are the characteristic property of SGRs, which led to the discovery of this
+class of high-energy sources. SGRs emit short bursts in the hard X-ray band during periods
+of activity. The peak luminosity of short bursts can reach $\sim10^{42}\ \rm{erg\ s^{-1}}$,
+and the duration is $\sim0.01-1\ \rm{s}$. Most of the bursts consist of single or a few
+pulses which rise fast and decay slowly. Some examples of bursts light curves are shown in
+Fig. $3$ (from ~\cite{Mereghetti2008}). The spectra of short bursts above $\sim15$ keV can be
+well fitted by optically thin thermal bremsstrahlung models with $kT\sim30-40$ keV, but such
+a model can not extend to lower energy ($\sim1-2$ keV)~\cite{Feni94}. In order to fit the
+broad band spectrum from $1$ to $100$ keV, two blackbody models with temperatures $kT_{\rm{1}}\sim2-4$
+keV and $kT_{\rm{2}}\sim8-12$ keV are applied (e.g. ~\cite{Feroci}). Short bursts from AXPs
+have been detected by RXTE~\cite{Kaspi00,Kaspi2003}, which confirmed the link between these two
+classes of objects.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\centering
+\rotatebox{-90}{\includegraphics[width=8cm]{sgr1806_bursts_goe04.ps}}
+%\psfig{figure=sgr1806_bursts_goe04.ps,angle=-90,width=12cm}
+\caption{Short bursts from \zerosei\ observed with the IBIS
+instrument on board INTEGRAL (from \cite{Gotz04}). Top panels:
+light curves in the soft energy range S=15-40 keV. Middle panels:
+light curves in the hard energy range H=40-100 keV. Bottom panel:
+hardness ratios, defined as (H-S)/(H+S),  showing that spectral
+evolution is present in some burst. }
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+More violent bursts are the giant flares of SGRs, whose energy release are typically
+$\sim(2-500)\times10^{44}$ ergs. There are three giant flares observed to date and
+all of them are from SGRs~\cite{Mereghetti2008}. Giant flares are characterized by
+a short hard spike followed by a longer pulsating tail (Fig. $4$ from ~\cite{Mereghetti2008}),
+the peak luminosity of the initial spike can reach a few $10^{47}\ \rm{erg\ s^{-1}}$.
+The rise time of the spike is smaller than a few milliseconds while the duration is
+typically a few tenths of second. The spectrum of the spike are much harder than that
+of the normal SGR short, with temperatures of hundreds of keV.
+%but the evolution of the spectrum is still unclear due to limit of current observations.
+The giant flares pulsating tails are characterized by a strong evolution of the flux,
+timing and spectral properties. The decaying light curves, observed for a few minutes,
+are strongly modulated at the neutron star rotation period, and show complex pulse
+profiles which evolve with time. The spectra of the tails are well fitted by optically
+thin bremsstrahlung models and are are softer than those of the initial spikes.
+%
+Besides bursts activities, long-term X-ray variability and transient phenomena
+have also been discovered for AXPs and SGRs. Since AXPs and SGRs are not typical X-ray
+pulsars which present variability due to accreting, the long-term X-ray variability and
+transient phenomena would require the models to explain the large luminosity range and
+thus of great importance.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\centering
+\rotatebox{0}{\includegraphics[width=12cm]{GF_LC.eps}}
+%\psfig{figure=GF_LC.eps,angle=0,width=13cm}
+ \caption{Light
+curves of the three giant flares from SGRs. Top panel: \lmc\
+(Venera data in the 50-150 keV range, from \cite{Mazets82}); middle
+panel: \zerozero\ (Ulysses data in the 20-150 keV range, courtesy
+K. Hurley); bottom panel:  \zerosei\ (INTEGRAL SPI/ACS at E$>$80
+keV, from \cite{Mere05d}). The initial peaks of the flares for
+\lmc\ and \zerosei\ are out of the vertical scale. }
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%Long-term variations of AXPs can occur either as gradual changes
+%in the flux, accompanied by variations in the spectrum, pulse profiles, and spin-down rate,
+%or as sudden outbursts associated with energetic events occurring on short timescales,
+%such as glitches and bursts~\cite{Mereghetti2008}. Transient phenomena which is corresponding
+%to a larger luminosity variation have been discovered for several AXPs and one SGR, and
+%suggest a connection between the bursting activity and the luminosity. Fig.~\ref{fig-xtej1810_lcurve}
+%shows the X-ray light curve of the transient AXP \xte (from ~\cite{Mereghetti2008}).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}
+%\centering
+%\rotatebox{-90}{\includegraphics[width=8cm]{j1810_flux_got07b.ps}}
+%\psfig{figure=j1810_flux_got07b.ps,angle=-90,width=8.5cm}
+%\caption{X-ray light curve of the outburst of the transient AXP
+%\xte\ (from \cite{Gott07})} \label{fig-xtej1810_lcurve}
+%\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Timing properties}
+
+The spin periods of AXPs and SGRs distribute in a narrow range, $2-12$ s, and the period
+derivatives are typically large compared to radio pulsars (Fig.~\ref{PPdot} from ~\cite{Tong}),
+though people have discovered small period derivative SGR 0418$+$5729~\cite{Rea10}.
+%
+AXPs have a level of timing noise larger than that typically observed in radio pulsars, and
+the timing noise is even larger in the SGRs.
+%
+Glitches have been observed in practically all the AXPs for which adequate timing data have
+been taken over sufficiently long time periods. Most of the AXP glitch properties are consistent
+with those of young radio pulsars, indicating that AXPs and SGRs are relatively young pulsars.
+However, their glitch amplitude and frequency are larger than in radio pulsars of comparable
+spin periods, which exhibit smaller and more rare glitches. The origin of glitches is still
+unknown, but it seems that the variety of glitch properties in AXPs and SGRs can be better
+explained in terms of star quakes models~\cite{Mereghetti2008}.
+%
+Another interesting discovery is the quasi periodic oscillations (QPOs) in the decaying
+tails of SGRs giant flares. This phenomenon was first discovered in the RXTE data of the
+energetic giant flare of SGR 1806$-$20 on December 27, 2004~\cite{Israel05} and was
+independently confirmed with the data of RHESSI satellite~\cite{watts06}. In the RXTE
+data of the giant flare of SGR 1900$+$14 in the August 1998, QPOs were also discovered~\cite{str05}.
+The QPOs observed in the tails of giant flares are most likely due to seismic oscillations
+induced by the large crustal fractures occurring in these extremely energetic events,
+similar to what happens after earthquakes~\cite{Mereghetti2008}.
+
+
+\begin{figure}
+\label{PPdot}
+\centering
+ \includegraphics[width=12cm]{PPdot_PSRLikeObjects.eps}
+\caption{P-$\mathrm{\dot{P}}$ diagram of pulsars. Squares are for
+AXPs and SGRs, the six-pointed-star is for the radio loud magnetar,
+the down-arrow marks the low magnetic field SGR (from McGill online
+catalog:
+http://www.physics.mcgill.ca/$\sim$pulsar/magnetar/main.html).
+Diamonds are for X-ray dim isolated neutron stars (XDINSs) (from
+Kaplan \& van Kerkwijk 2011). Stars are for rotating radio
+transients (RRATs), dots are for normal and millisecond
+pulsars (from ATNF:
+http://www.atnf.csiro.au/research/pulsar/psrcat/). }
+\end{figure}
+%
+
+
+\subsubsection{Magnetars VS ``quark star+fallback disk''}
+
+A fundamental problem in AXP and SGR studies is to find a reliable power and to balance
+the energy budget for both their persistent and burst emissions, since the persistent
+X-ray luminosity of AXPs and SGRs is larger than their spin-down power and the luminosity
+of recurrent bursts can reach as large as $10^{42}\ \rm{erg\ s^{-1}}$~\cite{Tong}. One
+possible explanation is that isolated neutron stars are powered by magnetic energy, which
+is called the magnetar model. In the magnetar model, AXPs and SGRs are powered by strong
+magnetic fields.
+%The extremely high magnetic fields, up to $3\times10^{17}\times(1\ \rm{ms}/P_{\rm{0}})$
+%are formed through an efficient dynamo, supposing that the neutron stars are born with
+%sufficiently small periods, of the order of $P_{\rm{0}}\sim1-2$ ms, and the convection is
+%present~\cite{Thompson93}. Due to the strong magnetic dipole radiation losses, the spin
+%down rate of magnetars is large, and the narrow distribution of spin period is explained
+%as that young magnetars can spin down to several seconds in a few thousands years and
+%will rapidly evolve toward the "death line". As spinning down, the magnetic energy,
+%$E_{\rm{mag}}\sim10^{46}(P/5\ \rm{s})(\dot P/10^{-11}\ \rm{s\ s^{-1}})$ ergs,
+%will be soon much larger than their rotational energy~\cite{Mereghetti2008}.
+Magnetic field decay can provide a significant source of internal heating, and then produce
+the persistent X-ray emission. The bursts and flares can be explained by magnetic
+reconnections~\cite{Thompson93,Thompson95}.
+
+Although the magnetar model is well established and widely used, there are accumulating
+difficulties for it in recent observations.
+%We did not find AXPs with large
+%kick velocity~\cite{hel07} nor the corresponding energetic supernova, which are predicted
+%in order to form the high magnetic fields~\cite{Gae01,vink06}. And we also did not detect
+%the gamma-ray emissions from AXPs and SGRs~\cite{Tong11}.
+%
+Therefore, alternative modeling of AXPs and SGRs are not only possible but also very necessary~\cite{Tong}.
+The ``quark star+fallback disk'' model could give explanations of different phenomena of
+AXPs and SGRs. Some of the explosive material of the supernova may fall back onto the
+neutron star and form a disk if the fallback material carries some amount of angular
+momentum. The period clustering of AXPs and SGRs can naturally explained by the equilibrium
+period which is reached when the corotation radius equals the magnetospheric radius,
+and the presence of a disk is invoked to account for the rapid spin-down~\cite{Alpar,Chatterjee00}.
+The persistent emission spectral of AXPs and SGRs can be modeled similarly to that of
+accretion systems~\cite{Trumper}, and the bursts are due to sudden energy release of
+the quark star, which may include elastic energy, gravitational energy, and conversion
+energy from normal matter to quark matter~\cite{Tong}. The super-Eddington luminosity
+bursts can also be understood by a bare quark star surface since quark matter are self-bond.
+%In summary, both the bursts and persistent emissions of AXPs and SGRs are understandable
+%in the ``quark star+fallback disk'' model. The period clustering and super-Eddington
+%luminosity bursts are natural consequences of this model.
+
+
+\subsubsection{Hard X-ray and radio emission from AXPs and SGRs}
+
+Until a few years ago, the hard X-ray emissions from AXPs and SGRs were limited to the
+bursts and flares. The detection of persistent hard X-ray emissions from AXPs extending
+to $\sim150$ keV was surprising, considering their soft spectra below $10$ keV~\cite{Kuiper04,mol,den Hartog}.
+The presence of hard X-ray tails in SGRs were also identified in earlier data~\cite{Mere05,Gotz}.
+Up to now, emission above $20$ keV has been detected for five AXPs (4U 0142+61,
+1RXS J170849.0-400910£¬1E 1048.59, 1E 1841-045 and 1E 1547.0.5408; e.g., \cite{den Hartog, Kuiper06, Leyder, Kuiper04, Enoto})
+and two SGRs (SGR 1900+14, SGR 1806-20; e.g., \cite{Gotz, Esposito}). The upper limits
+on the non-detected sources are not deep enough to exclude that they have similar hard
+X-ray emission. The spectra of AXPs above $20$ keV are well fit with rather hard power
+laws, while the spectra of SGRs are steeper (Fig.~\ref{fig-integral_spec}, from ~\cite{Mereghetti2008}).
+Most importantly, the flat spectra imply that the energy released in the hard X-ray
+range is a significant fraction of the total energy output from these sources~\cite{Mereghetti2008}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\centering
+\rotatebox{0}{\includegraphics[width=10cm]{int_magnetars.ps}}
+%\psfig{figure=int_magnetars.ps,width=4cm}
+\caption{XMM-Newton and INTEGRAL spectra of magnetars (from
+\cite{Gotz}). Note the different behavior of SGRs (two top
+panels) and AXPs: in the latter sources the spectra turn upward
+above 10 keV, while in the SGRs the spectra steepen.}
+\label{fig-integral_spec}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Our knowledge of the radiation mechanism of hard X-ray emission from AXPs and SGRs
+is still poor. On one the hand, current observations are limited by the low sensitivity
+of the hard X-ray telescopes. On the other hand, theoretical spectral models are still
+far from sophisticated.
+%
+In the context of the magnetar model, several mechanisms have been proposed. In Thompson
+and Beloborodov (2005), two possibilities have been suggested, one is bremsstrahlung from
+a thin turbulent layer of the star's surface, heated to $kT\sim100$ keV by magnetospheric
+currents, and the other is synchrotron emission from pairs produced at a height of $\sim100$
+km above the neutron star.
+%In the first case a cut-off at a few hundred keV is expected,
+%while in the second case the spectrum should extend to higher energies, peaking around $1$ MeV.
+%
+In Heyl and Hernquist (2005), the presence of a non-thermal distribution of electrons
+and positrons in the outer parts of the magnetosphere were predicted according to the
+fast-mode breakdown model, and the hard X-ray emission could instead be due to synchrotron
+radiation of these changed particles.
+%
+In Baring and Harding (2007), the effect of resonant cyclotron scattering (RCS) is considered
+in producing hard X-ray emission from magnetars,
+%Considering that the plasma density in the magnetosphere of
+%magnetars is high and in strong magnetic fields the Compton scattering is resonant at the
+%cyclotron energy, with a cross section much higher than the Thomson value, the surface
+%thermal photons ($kT\sim$ keV) propagating outward will be scattered resonantly to hard
+%X-ray range and
+and a flat spectrum is predicted (Fig.~\ref{fig:upscatt_spectra}, from ~\cite{Baring}).
+%
+In the fallback disk scenario, both the soft and the hard X-ray emission are explained as
+the result of the accretion process. The power-law, hard X-ray spectra are produced in the
+accretion flow mainly by bulk-motion Comptonization of soft photons emitted at the neutron
+star surface. The hard and the soft X-ray spectra of AXP 4U 0142$+$61 are successfully reproduced
+in Tr\"{u}mper et al.(2010).
+
+%
+\begin{figure}[h]
+   \vspace{-7pt}
+   \centering
+   \includegraphics[width=0.7\textwidth]{reson_upscatt_spec.eps}
+   \vspace{-8pt}
+   \caption{Resonant Compton upscattering spectra (scaled) such as
+   might be sampled in the magnetosphere of an AXP, for different
+   relativistic electron Lorentz factors $\gamma_{e}$, as labelled.
+   The emergent photon energy $\varepsilon_f$ is scaled in terms of
+   $m_ec^2$.  The chosen magnetic field strengths of $B=3 B_{\rm cr}$
+   (heavyweight, blue) and $B=0.3 B_{\rm cr}$ (lighter weight, red)
+   correspond to different altitudes and perhaps colatitudes.
+   Results are depicted for seed photons of energy $\varepsilon_s=0.003$
+   (marked by the green vertical line), typical of thermal X-rays emanating
+   from AXP surfaces; downscattering resonant emission at
+   $\varepsilon_f < \varepsilon_s$ was not exhibited.
+   }
+ \label{fig:upscatt_spectra}
+\end{figure}
+%
+
+Although detailed studies of the hard X-ray emission from AXPs and SGRs are hampered by the
+relatively poor sensitivity of the current instruments, the situation will be different
+in the near future as a few satellite missions (e.g., NuStar, HXMT) are now being developed
+and expected to be operational soon. The significantly improved sensitivity will provide
+much information about the radiation mechanism and it is promising to distinguish different
+models through hard X-ray observations.
+
+The pulsed radio emission from AXPs and SGRs was discovered until 2004. A point-like radio
+source associated to the transient XTE J1810$-$197 was identified about $1$ year after the
+X-ray outburst~\cite{hal05b}. The radio pulsations of another transient AXP 1E1547-54 was
+also confirmed later~\cite{cam07b}. However, no radio pulsations were seen in the other
+transient AXP, CXOU J1647$-$45, after its September 2006 outburst~\cite{Bur06}, nor in 1E
+1048$-$59 after the flux enhancement accompanied by a glitch that occurred in March 2007~\cite{cam07c}.
+Deep searches for radio pulsations in persistent AXPs have so far given negative results~\cite{Bur06a}.
+%
+The radio properties of the two AXPs showing radio pulsations differ in several respects
+from those of radio pulsars: their flux is highly variable on daily timescales, their spectrum
+is very flat, and their average pulse profile changes with time~\cite{cam08}. Such differences
+probably indicate that the radio emitting regions are more complex than the dipolar open field
+lines along which the radio emission in normal pulsars is thought to originate~\cite{Mereghetti2008}.
+The origin of the radio emission is still controversial, although a few theoretical works have
+started to address this issue~\cite{Bel09,Tho08}.
+%It was initially believed that the absence
+%of radio emission was a distinctive characteristic of magnetars, since the photon splitting
+%in the high magnetic field could dominate over pair creation, thus suppressing the charged particle
+%cascades that are at the origin of the radio emission~\cite{Baring01}. However, photon
+%splitting applies only to one polarization mode: photons of the other mode cannot split.
+%Therefore this argument does not apply.
+
+
+\subsection{Microlensing pulsars}
+
+Pulsar-like compact stars could be normal neutron stars or quark stars, and it should be
+very important to affirm or negate the existence of either neutron or quark stars in order to
+guide physicists in studying the nature of fundamental strong interaction.
+%
+With regard to the possible ways of identifying quark stars~\cite{Xu08},
+it could be very straightforward and clear if we would find low-mass quark stars, since neutron
+stars are essentially gravitation-bound while low-mass quark stars are mainly confined by strong interaction.
+If we can detect a pulsar-like star with mass $\lesssim 0.1M_\odot$, then it is surely a quark star.
+%
+
+%
+Up to now only the masses of compact stars in binary systems have been determined, by either Keplerian or
+post-Keplerian parameters.
+%
+The lowest mass detected of an eclipsing X-ray pulsar, SMC X-1, is $1.06_{-0.10}^{+0.11}~M_\odot$, which
+is near the minimum mass expected for a neutron star produced in a supernova~\cite{lmc}.
+%
+However, most of pulsars are isolated, and it is still a big challenge to measure their masses. It was
+suggested to observationally determine an isolated neutron star's mass from the red-shift (as a function
+of the ratio of mass to radius, $M/R$) and pressure broadening (as a function of $M/R^2$) of an absorption
+spectrum, yet no atomic line has been detected with certainty in the thermal X-ray spectra~\cite{Xu02}.
+
+In our work in 2010~\cite{Dai10}, we proposed to determine the mass of isolated neutron stars through
+gravitational microlensing. We estimated the lensing rates of pulsars towards the galactic bulge and
+spiral arms and showed that, for FAST and SKA, the lensing rates ($\propto N$) are $\geq1$ event/decade
+at least.
+%
+Therefore, it is hopeful to measure the mass of an isolated pulsar in the future with the method of
+microlensing. We proposed to do catalogue comparison and microlensing prediction for pulsars identified
+by SKA and FAST in the future, and to carry out microlensing observation coupled with radio observation in
+order to detect microlensing pulsar events and to measure the masses of isolated pulsars with advanced
+optical facilities.
+
+\section{Research experience}
+
+We investigated the possibilities that pulsars act as the lens in gravitational microlensing
+events towards the galactic bulge or a spiral arm in 2010~\cite{Dai10}. Our estimation was
+based on expectant survey and observations of FAST (Five hundred meter Aperture Spherical Telescope)
+and SKA (Square Kilometer Array), and two different models of pulsar distribution were
+used. We found that the lensing rate was $> 1$ event/decade, being high enough to search
+the real events. Therefore, the microlensing observations focusing on pulsars identified
+by FAST or SKA in the future are meaningful. As an independent determination
+of pulsar mass, a future detection of microlensing pulsars should be significant in
+the history of studying pulsars, especially in constraining the state of matter (either
+hadronic or quark matter) at supra-nuclear densities. The observations of such events
+by using advanced optical facilities (e.g., the James Webb Space Telescope and the
+Thirty Meter Telescope) in future are highly suggested.
+%
+
+Recently, we compared the positions of known pulsars and those of microlensing
+events and background stars, aiming to identify possible microlensing pulsar
+events and predict microlensing pulsars candidates. For pulsars, we get their
+positions from the ATNF Pulsar Catalogue. For microlensing events, we get the positions
+from the OGLE and MACHO catalogues. For background stars, we consider the SDSS and
+UKIDDS latest data release and check if there were any background star near each pulsar.
+Our comparison showed that no known microlensing events were due to pulsars and no
+photometric microlensing pulsar candidates were found. However, we showed that
+astrometric microlensing events due to pulsars were expected in the future and the
+amplitude of such events were strong enough to observe by the next generation of
+telescopes such as GAIA. Therefore, with advanced telescopes, gravitational microlensing
+would be a powerful method to measure the mass of isolated neutron stars in the future.
+%
+
+Another interesting thing is that we found a SDSS object close to the millisecond PSR J2317+1439.
+PSR J2317$+$1439 is in a binary system. Its companion has not been identified yet, and previous
+observations only set a limit of $R>24$~\cite{kerk04}. However, taking $0.1\ \rm{arcsec}$ as the
+astrometric uncertainty, the optical position of this object ($\alpha_{\rm{2000}}=23^{\rm{h}}17^{\rm{m}}09^{\rm{s}}.236$,
+$\delta_{\rm{2000}}=+14^{\circ}39'31''.273$) is offset from the timing
+position of the pulsar ($\alpha_{\rm{2000}}=23^{\rm{h}}17^{\rm{m}}09^{\rm{s}}.23723(7)$,
+$\delta_{\rm{2000}}=+14^{\circ}39'31''.220(2)$ (Camilo et al. 1996)) by $0.05\pm0.1\ \rm{arcsec}$
+(see Fig.~\ref{photo}). We fitted the observed absolute magnitude and colors against the
+predictions from the helium-core white dwarf models and showed that the magnitude and colors
+are compatible with cooling tracks and such a white dwarf might be rather hot, $T_{\rm{eff}}\sim8500\ \rm{K}$ (see Fig.~\ref{color}).
+Such a hot white dwarf would challenge our current understanding of the properties of companions
+to millisecond pulsars and the evolution of the system. The possible brightness variation of
+this object is also interesting. Therefore, we have proposed to use the MegaCam of CFHT
+to take g-band, r-band, and i-band images of the field containing PSR J2317$+$1439.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}
+\begin{center}
+  %
+  \includegraphics[width=5.5 in]{3fig.ps}
+%
+\caption{$50''\times60''$ subsection of the g-band, r-band and i-band SDSS images of the field containing
+PSR J2317$-$1439. The $2''$ tick marks indicate the position of PSR J2317$-$1439. }
+\end{center}
+\label{photo}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}
+\begin{center}
+  %
+  \includegraphics[width=5 in]{HR.eps}
+%
+\caption{Color-magnitude diagrams of the counterpart to PSR J2317$-$1439. The colors and magnitudes are
+indicated with error bars. Also shown are helium-core white dwarf cooling tracks (solid lines) by
+Serenelli et al. (2001). The mass of different cooling models and the cooling age of white dwarfs are
+indicated.}
+\end{center}
+\label{color}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+
+We have also done some research on the hard X-ray emission of AXPs and SGRs in order to
+investigate the feasibility of using HXMT to distinguish different models. With the redistribution
+matrix file and the auxiliary response file provided by the HXMT Science Definition Team, we
+simulated the spectra of AXP 4U 0142$+$61 with both the RCS and BMC models, our results show
+that observations of HXMT can distinguish these two models. More details will be presented
+later.
+
+
+\section{Research plan}
+
+Diverse and energetic phenomena of pulsar-like compact stars make them one of the most
+interesting objects in astrophysics and attract increasing attention. The understanding of
+the energy sources and radiation mechanism is closely related to the equation of state,
+evolution and magnetic fields of the neutron star and thus of great importance in fundamental
+physics and astrophysics.
+%
+During my PhD, I will carry out multiband study of pulsar-like compact stars, aiming
+to understand several interesting phenomena of pulsar-like compact stars and investigate the
+nature of the neutron star.
+
+The main part of my study will be focused on the radio and hard X-ray emission and timing
+properties of AXPs and SGRs.
+%After more than $10$ years of extensive multiband observations, a good harvest of data of
+%AXPs and SGRs have been accumulated, and people have propose different models to explain
+%diverse phenomena. However, the nature of AXPs and SGRs is still controversial, and it is
+%difficult to get large advances in the classical X-ray band, due to the lack of new missions
+%significantly improving the capabilities of the currently available big observatories like
+%XMM-Newton and Chandra. The situation is more promising for the hard X-ray band, since the
+%presence of hard X-ray emission from most magnetars has been established, and a few satellite
+%missions with significantly improved sensitivity (e.g., NuStar, HXMT) are now being developed
+%and expected to be operational in the near future. Also, the detection of pulsed radio emission
+%from the AXP XTE J1810$-$197~\cite{Camilo} opened a new perspective in the study of AXPs and
+%SGRs.
+%
+%
+%My research in the next few years will be focused on the multiband radiation and timing properties of AXPs and SGRs,
+%aiming to understand different phenomena and distinguish different models based
+%and hence study the equation of state, evolution and magnetic field of the neutron star.
+Both theoretical and observational research will be carried out. For the theoretical part, I will
+study the radiation mechanism of the radio and X-ray emission and the origin of glitches and QPOs.
+%
+As for the radio emission, no complete theory has been put forward so far, although a few
+theoretical works have started to address this issue~\cite{Bel09,Tho08}. According to the delay in
+the appearance of the radio emission after the X-ray outburst onset, it seems that the radio emission
+is connected to burst activities. In Zanotti et al.(2011), the effects of toroidal oscillations at
+the star surface have been considered in particle acceleration processes in the polar cap region of an
+oscillating neutron star, and their results show that significant enhancements of the Lorentz factor
+of electrons are produced by star oscillations. Considering that burst activities might induce star
+oscillations, we propose to explain the radio emission after outburst as the effects of star oscillations
+and will carry out studies in the context of quark stars.
+%
+As for the X-ray emission, the radiation mechanism will be investigated in the fallback disk model.
+In Tr\"{u}mper et al.(2010), they first applied the bulk-motion Comptonization (BMC) of soft photons
+emitted at the neutron star surface by the accretion flow to understand the X-ray emission from
+AXPs and SGRs, and both the soft and the hard X-ray spectra of AXP 4U 0142$+$61 were well fitted (Fig.~\ref{Fig:Spec1} from ~\cite{Trumper}).
+Considering that AXP 4U 0142+61 is the first AXP with direct observational support for the presence
+of fallback disks around these systems~\cite{Wang}, their work indicates that the effect of bulk-motion
+Comptonization might be important in the hard X-ray radiation process. However, the BMC model
+are currently only applied to one AXP, and it seems hard to fit both the soft and the hard X-ray
+spectra of some AXPs and SGRs. Therefore, we suppose that there are other components accounting
+for the hard X-ray emission from AXPs and SGRs besides the BMC component. One promising mechanism is
+the resonant cyclotron scattering, which has been applied to normal pulsars and magnetars to explain
+the hard X-ray emission. We plan to take the effects of resonant cyclotron scattering into consideration,
+and predict a two components spectral model for the hard X-ray emission of AXPs and SGRs under
+the fallback disk scenario.
+%
+I will also investigate the origin of glitches and QPOs in the context of solid quark star. The variety
+of glitch properties in AXPs and SGRs indicate that their origin might be corresponding to star quakes,
+and QPOs are also likely due to seismic oscillations induced by the large crustal fractures occurring
+in these extremely energetic events. These quakes and oscillations of the star can be naturally understood
+by the solid state of quark cluster star~\cite{Tong11} and I will carry out further study.
+
+\begin{figure}
+\centering
+\includegraphics[angle=-90,width=10cm]{fig1.ps}
+\caption{Top panel: The {\textit{Chandra}} HEG and MEG (first positive
+order shown with red and green points respectively) and INTEGRAL ISGRI
+data (shown in black) along with the best-fit {\sc{comptb}} model.
+Bottom panel: Ratio between the data and the best-fit model.}
+\label{Fig:Spec1}
+\end{figure}
+
+For the observational part, I will try to investigate and distinguish different spectral models,
+based on archived data and future observations. The Immediate goal is applying our spectral model to
+understand the soft and hard X-ray emission of known AXPs and SGRs, using archived data of Chandra,
+XMM-Newton and INTEGRAL. Although it is still hard to distinguish different models due to quality
+of current data, such works would verify that both the soft and hard X-ray emission can be naturally
+explained in the context of fallback disk model.
+%
+On the other hand, a few satellite missions with significantly improved sensitivity are now being
+developed and expected to be operational in the near future. Especially, the Hard X-ray Modulation
+Telescope (HXMT), which is developed by China, will play an important role in AXPs and SGRs study
+with its wide energy range and high sensitivity in hard X-ray band.
+%
+We have investigated the feasibility of using HXMT to distinguish different spectral models of the
+hard X-ray emission of AXPs and SGRs. We mainly considered the RCS model of magnetar and the BMC model
+of fallback disk system, since they are well established and represent different understanding of AXPs
+and SGRs. The spectra of these two models show obvious difference in the hard X-ray band. The RCS model
+predicts a flat spectra extending to MeV~\cite{Baring}, while the spectrum of the BMC model turn off at $\sim200$ keV.
+With the redistribution matrix file and the auxiliary response file provided by the HXMT Science
+Definition Team, we simulated the spectra of AXP 4U 0142$+$61 with both the RCS and BMC models, our
+results show that observations of HXMT can distinguish these two models. Fig.~\ref{figure 1} shows
+the simulated spectra of AXP 4U 0142$+$61 with the RCS and BMC models, the exposure time is $10$ Ms.
+Fig.~\ref{figure 2} and Fig.~\ref{figure 3} show the results of fitting the simulated BMC spectrum
+with RCS model and BMC model. Fig.~\ref{figure 4} to Fig.~\ref{figure 6} show the results with exposure
+time of $1$ Ms. Fig.~\ref{figure 7} shows the simulated $1-250$ keV spectrum of AXP 4U 0142$+$61 with
+the BMC model.
+%
+Observations with HXMT will also significantly improve the timing quality of AXPs and SGRs. Since
+glitches have been observed in practically all the AXPs for which adequate timing data have been taken
+over sufficiently long time periods, HXMT will discover much more glitches and promote our understanding
+of the origin of glitches.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h]
+\begin{center}
+  % Requires \usepackage{graphicx}
+  \rotatebox{-90}{\includegraphics[width=8cm]{10ms_comptb_po.ps}}
+\end{center}
+\caption{Simulated spectra with exposure time of $10$ Ms. Red line and points represent the spectrum of RCS model.
+Black line and points represent the spectrum of BMC model.}
+\label{figure 1}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h]
+\begin{center}
+  % Requires \usepackage{graphicx}
+  \rotatebox{-90}{\includegraphics[width=8cm]{10ms_comptb_fit_po.ps}}
+  % Requires \usepackage{graphicx}
+\end{center}
+\caption{Fitting the simulated BMC spectrum with the RCS model.}
+\label{figure 2}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h]
+\begin{center}
+  % Requires \usepackage{graphicx}
+  \rotatebox{-90}{\includegraphics[width=8cm]{10ms_comptb_fit_comptb.ps}}
+  % Requires \usepackage{graphicx}
+\end{center}
+\caption{Fitting the simulated BMC spectrum with the BMC model as a comparison with Fig.~\ref{figure 3}.}
+\label{figure 3}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h]
+\begin{center}
+  % Requires \usepackage{graphicx}
+  \rotatebox{-90}{\includegraphics[width=8cm]{1ms_comptb_po.ps}}
+\end{center}
+\caption{Same as Fig.~\ref{figure 1}£¬with exposure time of $1$ Ms.}
+\label{figure 4}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h]
+\begin{center}
+  % Requires \usepackage{graphicx}
+  \rotatebox{-90}{\includegraphics[width=8cm]{1ms_comptb_fit_po.ps}}
+  % Requires \usepackage{graphicx}
+\end{center}
+\caption{Same as Fig.~\ref{figure 2}£¬with exposure time of $1$ Ms.}
+\label{figure 5}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h]
+\begin{center}
+  % Requires \usepackage{graphicx}
+  \rotatebox{-90}{\includegraphics[width=8cm]{1ms_comptb_fit_comptb.ps}}
+  % Requires \usepackage{graphicx}
+\end{center}
+\caption{Same as Fig.~\ref{figure 3}£¬with exposure time of $1$ Ms.}
+\label{figure 6}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h]
+\begin{center}
+  % Requires \usepackage{graphicx}
+  \rotatebox{-90}{\includegraphics[width=8cm]{0142_whole_comptb.ps}}
+  % Requires \usepackage{graphicx}
+\end{center}
+\caption{Simulated $1-250$ keV spectrum of AXP 4U 0142$+$61 with the BMC model, with exposure time of $1$ Ms.}
+\label{figure 7}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Besides the research of AXPs and SGRs, I will continue my study on microlensing pulsars. In our work
+in 2010, we have investigated the possibilities that pulsars act as the lens in gravitational microlensing
+events towards the galactic bulge or a spiral arm~\cite{Dai10}. Our estimation was based on
+expectant survey and observations of FAST and SKA, and it showed that the lensing rate was $> 1$ event/decade,
+being high enough to search the real events. Therefore, the microlensing observations focusing on pulsars
+identified by FAST or SKA in the future are meaningful. Recently, we compared the positions of known
+pulsars and those of microlensing events and background stars, aiming to identify possible microlensing
+pulsar events and predict microlensing pulsars candidates. Our comparison showed that no known microlensing
+events were due to pulsars and no photometric microlensing pulsar candidates were found. However, we
+showed that astrometric microlensing events due to pulsars were expected in the future and the amplitude
+of such events were strong enough to observe by the next generation of telescopes such as GAIA.
+We are now preparing the paper.
+%
+
+Another interesting discover of our catalogue comparison is that we found a SDSS object close to the
+millisecond PSR J2317+1439. PSR J2317$+$1439 is in a binary system. Its companion has not been identified yet,
+and previous observations only set a limit of $R>24$~\cite{kerk04}. However, taking $0.1\ \rm{arcsec}$
+as the astrometric uncertainty, the optical position of this object ($\alpha_{\rm{2000}}=23^{\rm{h}}17^{\rm{m}}09^{\rm{s}}.236$,
+$\delta_{\rm{2000}}=+14^{\circ}39'31''.273$) is offset from the timing
+position of the pulsar ($\alpha_{\rm{2000}}=23^{\rm{h}}17^{\rm{m}}09^{\rm{s}}.23723(7)$,
+$\delta_{\rm{2000}}=+14^{\circ}39'31''.220(2)$ (Camilo et al. 1996)) by
+$0.05\pm0.1\ \rm{arcsec}$. We fitted the observed absolute magnitude and colors against the
+predictions from the helium-core white dwarf models and showed that the magnitude and colors
+are compatible with cooling tracks and such a white dwarf might be rather hot, $T_{\rm{eff}}\sim8500\ \rm{K}$.
+Such a hot white dwarf would challenge our current understanding of the properties of companions
+to millisecond pulsars and the evolution of the system. The possible brightness variation of
+this object is also interesting. Therefore, we have submitted a proposal to use the MegaCam of CFHT
+to take g-band, r-band, and i-band images of the field containing PSR J2317$+$1439. If our proposal succeeded,
+we will have chance to identify the companion to PSR J2317$+$1439 and investigate the evolution of
+this system.
+
+I will also participate radio observations of pulsars which will be carried out with the $40\ \rm{m}$
+radio telescope of Yunnan Observatory. Regular timing of normal pulsars, radio emission of AXPs and
+SGRs, timing of high-magnetic field pulsars and searching pulsars around the galactic center will
+be possible science goals. It is also a good opportunity to learn pulsar timing and searching.
+
+Finally, a brief time schedule is as fellow:
+
+2012--2013: Finish current microlensing study and write a paper; If our proposal succeeded, analyze the data
+and do research; Investigate the radiation mechanism under the fallback disk scenario;
+Learn data analysis and X-ray timing of pulsars.
+
+2013--2014: Apply our spectral model to investigate the spectra of AXPs and SGRs with archived data. Learn
+data analysis and X-ray timing of pulsars; Do radio pulsar timing and searching.
+
+2014--2015: Analyze data of HXMT, and investigate the timing and spectral properties of AXPs and SGRs;
+Do radio pulsar timing and searching.
+
+%\begin{equation}
+%\left[{\begin{array}{c}
+%\sin\theta\cos\phi \\
+%\sin\theta\sin\phi \\
+%\cos\theta \\
+%\end{array}}\right]=\left[{\begin{array}{ccc}
+%1 & 0 & 0 \\
+%0 & \cos\theta_0 & \sin\theta_0 \\
+%0 & -\sin\theta_0 & \cos\theta_0 \\
+%\end{array}}\right]\left[{\begin{array}{ccc}
+%\cos\phi_0 & \sin\phi_0 & 0 \\
+%-\sin\phi_0 & \cos\phi_0 & 0 \\
+%0 & 0 & 1 \\
+%\end{array}}\right]\left[{\begin{array}{c}
+%\sin\vartheta\cos\varphi \\
+%\sin\vartheta\sin\varphi \\
+%\cos\vartheta \\
+%\end{array}}\right]
+%\end{equation}
+
+
+
+\begin{thebibliography}{99}
+
+\bibitem[Abdo et al.(2011)]{Abdo}
+Abdo A. A., et al. 2011, Science, 331, 739
+
+\bibitem[Alcock et al.(1986a)]{Alcock86a}
+Alcock C., Farhi E., Olinto A., 1986, ApJ, 310, 261
+
+\bibitem[Alcock et al.(1986b)]{Alcock86b}
+Alcock C., Farhi E., Olinto A., 1986, PRL, 57, 2088
+
+\bibitem[Alpar(2001)]{Alpar}
+Alpar M. A., 2001, ApJ, 554, 1245
+
+\bibitem[Baring \& Harding(2001)]{Baring01}
+Baring M. G., Harding A. K., 2001, ApJ, 547, 929
+
+\bibitem[Baring \& Harding(2007)]{Baring}
+Baring M. G., Harding, A. K., 2007, Ap\&SS, 308, 109
+
+\bibitem[Beloborodov \& Thompson(2007)]{Beloborodov}
+Beloborodov A. M., Thompson C., 2007, ApJ, 657, 967
+
+\bibitem[Beloborodov(2007)]{Bel09}
+Beloborodov A. M. 2009, ApJ, 703, 1044
+
+\bibitem[Burgay et al.(2006a)]{Bur06a}
+Burgay M., Rea N., Israel G. L., Possenti A., Burderi L., di Salvo T., D¡¯Amico N., Stella L., 2006, MNRAS, 372, 410
+
+\bibitem[Burgay et al.(2006b)]{Bur06}
+Burgay M., Rea N., Israel G., Possenti A., 2006, Astron Telegr 903, 1
+
+\bibitem[Camilo et al.(2006)]{Camilo}
+Camilo F., Ransom S. M., Halpern J. P., Reynolds J., Helfand D. J., Zimmerman N., Sarkissian J., 2006, Nature, 442, 892
+
+\bibitem[Camilo et al.(2007a)]{cam07}
+Camilo F., Ransom S. M., Halpern J. P., Reynolds J., 2007, ApJ, 666, 93
+
+\bibitem[Camilo et al.(2007b)]{cam07b}
+Camilo F., Ransom S. M., Halpern J. P., Reynolds J., 2007, ApJ, 666, 93
+
+\bibitem[Camilo et al.(2007c)]{cam07c}
+Camilo F., Reynolds J., 2007, Astron Telegr, 1056, 1
+
+\bibitem[Camilo et al.(2008)]{cam08}
+Camilo F., Reynolds J., Johnston S., Halpern J. P., Ransom S. M., 2008, ApJ, 679, 681
+
+\bibitem[Chatterjee et al.(2000)]{Chatterjee00}
+Chatterjee P., Hernquist L., Narayan R., 2000, ApJ, 534, 373
+
+\bibitem[Cline et al.(1980)]{cli80}
+Cline T. L., Desai U. D., Pizzichini G., et~al. 1980, ApJ, 237, 1
+
+\bibitem[Corbel et al.(1999)]{cor99}
+Corbel S., Chapuis C., Dame T. M., Durouchoux P., 1999, ApJ, 526, 29
+
+\bibitem[Corbel \& Eikenberry(2004)]{cor04}
+Corbel S., Eikenberry S. S., 2004, A\&A, 419, 191
+
+\bibitem[den Hartog et al.(2006)]{den Hartog}
+den Hartog P. R., Hermsen W., Kuiper L., Vink J., in¡¯t Zand J. J. M., Collmar W., 2006, A\&A, 451, 587
+
+\bibitem[Dai et al.(2010)]{Dai10}
+Dai S., Xu R. X., Esamdin A., 2010, MNRAS, 405, 2754
+
+\bibitem[Duncan \& Thompson(1992)]{Duncan}
+Duncan R. C., Thompson C., 1992, ApJ, 392, 9
+
+\bibitem[Durant \& van Kerkwijk(2006)]{dur06}
+Durant M., van Kerkwijk M. H., 2006, ApJ, 650, 1070
+
+\bibitem[Durant(2011)]{Durant}
+Durant M., Kargaltsev O., Pavlov G. G., Kowalski P. M., Posselt B., van Kerkwijk M. H., Kaplan D. L., 2011, To appear in ApJ(arXiv:1111.2346)
+
+\bibitem[Enoto et al.(2010)]{Enoto}	
+Enoto T., Nakazawa K., Makishima K., Nakagawa Y. E., Sakamoto T., Ohno M., Takahashi T., Terada Y., Yamaoka K., Murakami T., Takahashi H., 2010, PASJ, 62, 475
+
+\bibitem[Esposito et al.(2007a)]{Esposito07a}
+Esposito P., Mereghetti S., Tiengo A., Sidoli L., Feroci M., Woods P., 2007, A\&A, 461, 605
+
+\bibitem[Esposito et al.(2007b)]{Esposito}
+Esposito P., Mereghetti S., Tiengo A., Zane S., Turolla R., G\"{o}tz D., Rea N., Kawai N., Ueno M., Israel G. L., Stella L., Feroci M., 2007, A\&A, 476, 321
+
+\bibitem[Fahlman \& Gregory(1981)]{Fahlman}
+Fahlman G. G., Gregory P. C., 1981, Nature, 293, 202
+
+\bibitem[Farinelli(2008)]{Farinelli}
+Farinelli R., Titarchuk L., Paizis A., Frontera F., 2008, ApJ, 680, 602
+
+\bibitem[Fenimore et al.(1994)]{Feni94}
+Fenimore E. E., Laros J. G., Ulmer A., 1994, ApJ, 432, 742
+
+\bibitem[Feroci et al.(2004)]{Feroci}
+Feroci M., Caliandro G. A., Massaro E., Mereghetti S., Woods P. M., 2004, ApJ, 612, 408
+
+%\bibitem[Gaensler et al.(2001)]{Gae01}
+%Gaensler B. M., Slane P. O., Gotthelf E. V., Vasisht G., 2001, ApJ, 559, 963
+
+\bibitem[Gavriil et al.(2002)]{Gavriil}
+Gavriil F. P., Kaspi V. M., Woods P. M., 2002, Nature, 419, 142
+
+\bibitem[Gelfand \& Gaensler(2007)]{gel07}
+Gelfand J. D., Gaensler B. M., 2007, ApJ, 667, 1111
+
+\bibitem[Gotthelf \& Halpern(2007)]{Gott07}
+Gotthelf E. V., Halpern J. P., 2007, Ap\&SS, 308, 79
+
+\bibitem[G\"{o}tz et al.(2004)]{Gotz04}
+G\"{o}tz D., Mereghetti S., Mirabel I. F., Hurley K., 2004, A\&A, 417, 45
+
+\bibitem[G\"{o}tz et al.(2006)]{Gotz}
+G\"{o}tz D., Mereghetti S., Tiengo A., Esposito P., 2006, A\&A, 449, 31
+
+\bibitem[Halpern \& Gotthelf(2005a)]{hal05}
+Halpern J. P., Gotthelf E. V., 2005, ApJ, 618, 874
+
+\bibitem[Halpern et al.(2005b)]{hal05b}
+Halpern J. P., Gotthelf E. V., Becker R. H., Helfand D. J., White R. L., 2005, ApJ, 632, 29
+
+\bibitem[Halpern et al.(2008)]{hal08}
+Halpern J. P., Gotthelf E. V., Reynolds J., Ransom S. M., Camilo F., 2008, ApJ, 676, 1178
+
+%\bibitem[Helfand et al.(2007)]{hel07}
+%Helfand D. J., et al., 2007, ApJ, 662, 1198
+
+\bibitem[Heyl \& Hernquist(2005)]{Heyl}
+Heyl J. S., Hernquist L., 2005, ApJ, 618, 463
+
+\bibitem[Hurley et al.(1994)]{hur94}
+Hurley K. J., McBreen B., Rabbette M., Steel S., 1994, A\&A, 288, 49
+
+\bibitem[Hurley et al.(1999)]{hur99e}
+Hurley K., Li P., Kouveliotou C., et al. 1999, ApJ, 510, 111
+
+\bibitem[Ibrahim et al.(2004)]{ibr04}
+Ibrahim A. I., Markwardt C. B., Swank J. H., et al. 2004, ApJ, 609, 21
+
+\bibitem[Israel et al.(1994)]{Israel}
+Israel G. L., Mereghetti S., Stella L., 1994, ApJ, 433, 28
+
+\bibitem[Israel et al.(2005)]{Israel05}
+Israel G. L., Belloni T., Stella L., Rephaeli Y., Gruber D. E., Casella P., Dall¡¯Osso S., Rea N., Persic M., Rothschild R. E., 2005, ApJ,
+628, 53
+
+\bibitem[Israel et al.(2007)]{isr07}
+Israel G. L., Campana S., Dall'Osso S., Muno M. P., Cummings J., Perna R., Stella L., 2007, ApJ, 664, 448
+
+\bibitem[Kaplan \& van Kerkwijk(2011)]{Kaplan11}
+Kaplan D. L., van Kerkwijk M. H., 2011, arXiv:1109.2105.
+
+\bibitem[Kaspi et al.(2000)]{Kaspi00}
+Kaspi V. M., Lackey J. R., Chakrabarty D., 2000, ApJ, 537, 31
+
+\bibitem[Kaspi et al.(2003)]{Kaspi2003}
+Kaspi V. M., Gavriil F. P., Woods P. M., Jensen J. B., Roberts M. S. E., Chakrabarty D., 2003, ApJ, 588, 93
+
+\bibitem[Kaspi \& Boydstun(2010)]{Kaspi2010}
+Kaspi V. M., Boydstun K., 2010, ApJ, 710, 115
+
+\bibitem[Kothes \& Dougherty(2007)]{kot07}
+Kothes R., Dougherty S. M., 2007, A\&A, 468, 993
+
+\bibitem[Kouveliotou et al.(1998)]{Kouveliotou}
+Kouveliotou C., Dieters S., Strohmayer T., van Paradijs J., Fishman G. J., Meegan C. A., Hurley K., Kommers J., Smith I., Frail D., Murakami T., 1998, Nature, 393, 235
+
+\bibitem[Kuiper et al.(2004)]{Kuiper04}
+Kuiper L., Hermsen W., Mendez M., 2004, ApJ, 613, 1173
+
+\bibitem[Kuiper et al.(2006)]{Kuiper06}
+Kuiper L., Hermsen W., den Hartog P. R., Collmar W., 2006, ApJ, 645, 556
+
+\bibitem[Lamb et al.(2002)]{lam02}
+Lamb R. C., Fox D. W., Macomb D. J., Prince T. A. 2002, ApJ, 574, 29
+
+\bibitem[Laros et al.(1986)]{lar86}
+Laros J. G., Fenimore E. E., Fikani M. M., Klebesadel R. W., Barat C., 1986, Nature, 322, 152
+
+\bibitem[Leyder et al.(2008)]{Leyder}
+Leyder J. C., Walter R., Rauw G., 2008, A\&A, 477, 29
+
+\bibitem[Mazets et al.(1979a)]{Mazets79a}
+Mazets E. P., Golenetskij S. V., Guryan Y. A., 1979a, Sov. Astron. Lett., 5, 343
+
+\bibitem[Mazets et al.(1979b)]{Mazets79b}
+Mazets E. P., Golentskii S. V., Ilinskii V. N., Aptekar R. L., Guryan I. A., 1979b, Nature, 282, 587
+
+\bibitem[Mazets et al.(1982)]{Mazets82}
+Mazets E. P., Golenetskii S. V., Gurian I. A., Ilinskii V. N., 1982, Ap\&SS, 84, 173
+
+\bibitem[Mereghetti \& Stella(1995)]{mer95}
+Mereghetti S., Stella L. 1995, ApJ, 442, 17
+
+\bibitem[Mereghetti et al.(2005a)]{Mere05}
+Mereghetti S., G\"{o}tz D., Mirabel I. F., Hurley K., 2005, A\&A, 433, 9
+
+\bibitem[Mereghetti et al.(2005b)]{Mere05b}
+Mereghetti S., Tiengo A., Esposito P., G\"{o}tz D., Stella L., Israel G. L., Rea N., Feroci M., Turolla R., Zane S., 2005, ApJ, 628, 938
+
+\bibitem[Mereghetti et al.(2005c)]{Mere05c}
+Mereghetti S., G\"{o}tz D., Mirabel I. F., Hurley K., 2005, A\&A, 433, 9
+
+\bibitem[Mereghetti et al.(2005d)]{Mere05d}
+Mereghetti S., G\"{o}tz D., Kienlin Avon, Rau A., Lichti G., Weidenspointner G., Jean P., 2005, ApJ, 624, 105
+
+\bibitem[Mereghetti et al.(2006)]{Mere06}
+Mereghetti S., Esposito P., Tiengo A., Zane S., Turolla R., Stella L., Israel G. L., G\"{o}tz D., Feroci M., 2006, ApJ, 653, 1423
+
+\bibitem[Mereghetti(2008)]{Mereghetti2008}
+Mereghetti S., 2008, Astron. Astrophys. Rev., 15, 225
+
+\bibitem[Molkov et al.(2004)]{mol}
+Molkov S. V., Cherepashchuk A. M., Lutovinov A. A., Revnivtsev M. G., Postnov K. A., Sunyaev R. A., 2004, Sov. Astron. Lett., 30, 534
+
+\bibitem[Muno et al.(2006)]{mun06}
+Muno M. P., Clark J. S., Crowther P. A., et al. 2006, ApJ, 636, 41
+
+\bibitem[Muno et al.(2007)]{mun07}
+Muno M. P., Gaensler B. M., Clark J. S., et al. 2007, MNRAS, 378, 44
+
+\bibitem[Paczy\'{n}ski(1992)]{Paczynski96}
+Paczy\'{n}ski B., 1992, ACTA ASTRONOMICA, 42, 145
+
+\bibitem[Rea et al.(2010)]{Rea10}
+Rea N., Esposito P., Turolla R., Israel G. L., et al., 2010, Science, 330, 944
+
+\bibitem[Rothschild et al.(1994)]{rot94}
+Rothschild R. E., Kulkarni S. R., Lingenfelter R. E., 1994, Nature, 368, 432
+
+\bibitem[Seward et al.(1986)]{Seward}
+Seward F. D., Charles P. A., Smale A. P., 1986, ApJ, 305, 814
+
+\bibitem[Strohmayer \& Watts(2005)]{str05}
+Strohmayer T. E., Watts A. L., 2005, ApJ, 632, 111
+
+\bibitem[Sugizaki et al.(1997)]{sug97}
+Sugizaki M., Nagase F., Torii K., et al. 1997, PASJ, 49, 25
+
+\bibitem[Thompson \& Duncan(1992)]{Thompson92}
+Thompson C., Duncan R. C., 1992, ApJ, 392, 9
+
+\bibitem[Thompson \& Duncan(1993)]{Thompson93}
+Thompson C., Duncan R. C., 1993, ApJ, 408, 194
+
+\bibitem[Thompson \& Duncan(1995)]{Thompson95}
+Thompson C., Duncan R. C., 1995, MNRAS, 275, 255
+
+\bibitem[Thompson \& Duncan(1996)]{Thompson96}
+Thompson C., Duncan R. C., 1996, ApJ, 473, 322
+
+\bibitem[Thompson et al.(2002)]{Thompson02}
+Thompson C., Lyutikov M., Kulkarni S. R., 2002, ApJ, 574, 332
+
+\bibitem[Thompson(2008)]{Tho08}
+Thompson C., 2008, ApJ, 688, 499
+
+\bibitem[Tian \& Leahy(2008)]{Tian08}
+Tian W., Leahy D. A., 2008, ApJ, 677, 292
+
+\bibitem[Tong et al.(2011)]{Tong11}
+Tong H., Song L. M., Xu R. X. 2011, ApJ, 738, 31
+
+\bibitem[Tong \& Xu(2011)]{Tong}
+Tong H., Xu R. X., 2011, Int. Jour. Mod. Phys. E, 20, 15
+
+\bibitem[Torii et al.(1998)]{Torii}
+Torii K., Kinugasa K., Katayama K., Tsunemi H., Yamauchi S., 1998, ApJ, 503, 843
+
+\bibitem[Tr\"{u}mper(2010)]{Trumper}
+Tr\"{u}mper J. E., Zezas A., Ertan \"{u}., Kylafis N. D., 2010, A\&A, 518, 46
+
+\bibitem[van der Meer et al.(2007)]{lmc}
+van der Meer A., Kaper L., van Kerkwijk M. H., Heemskerk M. H. M., van den Heuvel E. P. J., 2007, A\&A, 473, 523
+
+\bibitem[van Kerkwijk et al.(2004)]{kerk04}
+van Kerkwijk M. H., Bassa C. G., Jacoby B. A., Jonker P. G. 2005, in Rasio F. A., Stairs I. H. eds., Binary Radio Pulsars, ASP Conference Series, 328, 357
+
+\bibitem[Vasisht \& Gotthelf(1997)]{vas97}
+Vasisht G., Gotthelf E. V., 1997, ApJ, 486, 129
+
+%\bibitem[Vink \& Kuiper(2006)]{vink06}
+%Vink  J., Kuiper L., 2006, MNRAS, 370, 14
+
+\bibitem[Vrba et al.(2000)]{vrb00}
+Vrba F. J., Henden A. A., Luginbuhl C. B., et al. 2000, ApJ, 533, 17
+
+\bibitem[Wang et al.(2006)]{Wang}
+Wang Z., Chakrabarty D., Kaplan D. L., 2006, Nature, 440, 772
+
+\bibitem[Watts \& Strohmayer(2006)]{watts06}
+Watts A. L., Strohmayer T. E., 2006, ApJ, 637, 117
+
+\bibitem[Woods et al.(1999)]{Woods99}
+Woods P. M., Kouveliotou C., van Paradijs J., Hurley K., Kippen R. M., Finger M. H., Briggs M. S., Dieters S., Fishman G. J., 1999, ApJ, 519, 139
+
+\bibitem[Xu(2002)]{Xu02}
+Xu R. X., 2002, ApJ, 570, L65
+
+\bibitem[Xu et al.(2006)]{Xu}
+Xu R. X., Tao D. J., Yang Y., 2006, MNRAS, 373, 85
+
+\bibitem[Xu(2007)]{Xu07}
+Xu R. X., 2007, Advances in space research, 40, 1453
+
+\bibitem[Xu(2008)]{Xu08}
+Xu R. X., 2008, Modern Physics Letters A, 23, 1629
+
+\bibitem[Zanotti et al.(2011)]{za}
+Zanotti O., Morozova V., Ahmedov B., 2011, arXiv:1111.0563
+
+\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
