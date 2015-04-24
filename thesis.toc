@@ -8,9 +8,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {0.1.2}脉冲星的磁层和辐射机制}{6}{subsection.0.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.3}银河系的结构和星际介质的研究}{9}{subsection.0.1.3}
+\contentsline {subsection}{\numberline {0.1.3}银河系的结构和星际介质的研究}{10}{subsection.0.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.4}引力理论的检验}{10}{subsection.0.1.4}
+\contentsline {subsection}{\numberline {0.1.4}引力理论的检验}{11}{subsection.0.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {0.1.5}探测低频引力波辐射}{12}{subsection.0.1.5}
 \defcounter {refsection}{0}\relax 
@@ -26,7 +26,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第一章\hspace {0.3em}}射电波段的研究}{19}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}毫秒脉冲星的多波段脉冲偏振轮廓}{19}{section.1.1}
+\contentsline {section}{\numberline {1.1}毫秒脉冲星的多波段偏振脉冲轮廓}{19}{section.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.1}观测数据和数据处理}{21}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
@@ -38,11 +38,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.2}多波段脉冲偏振轮廓}{27}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{PSR J0437$-$4715 (Fig. \ref {0437})}{29}{section*.15}
+\contentsline {subsubsection}{PSR J0437$-$4715 (Fig. \ref {0437})}{27}{section*.15}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{PSR J0613$-$0200 (Fig. \ref {0613})}{29}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{PSR J0711$-$6830 (Fig. \ref {0711})}{30}{section*.17}
+\contentsline {subsubsection}{PSR J0711$-$6830 (Fig. \ref {0711})}{29}{section*.17}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{PSR J1017$-$7156 (Fig. \ref {1017})}{30}{section*.18}
 \defcounter {refsection}{0}\relax 
@@ -68,19 +68,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{PSR J1744$-$1134 (Fig. \ref {1744})}{33}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{PSR J1824$-$2452 (Fig. \ref {1824})}{34}{section*.30}
+\contentsline {subsubsection}{PSR J1824$-$2452 (Fig. \ref {1824})}{33}{section*.30}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{PSR J1832$-$0836 (Fig. \ref {1832})}{34}{section*.31}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{PSR J1857$+$0943 (Fig. \ref {1857})}{34}{section*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{PSR J1909$-$3744 (Fig. \ref {1909})}{35}{section*.33}
+\contentsline {subsubsection}{PSR J1909$-$3744 (Fig. \ref {1909})}{34}{section*.33}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{PSR J1939$+$2134 (Fig. \ref {1939})}{35}{section*.34}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{PSR J2124$-$3358 (Fig. \ref {2124})}{35}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{PSR J2129$-$5721 (Fig. \ref {2129})}{36}{section*.36}
+\contentsline {subsubsection}{PSR J2129$-$5721 (Fig. \ref {2129})}{35}{section*.36}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{PSR J2145$-$0750 (Fig. \ref {2145})}{36}{section*.37}
 \defcounter {refsection}{0}\relax 
@@ -98,25 +98,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}高精度脉冲星测时}{56}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}脉冲星观测的模拟 —— PSIM软件包}{58}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}脉冲星观测的模拟\ ——\ PSIM软件包}{58}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{基本功能}{58}{section*.50}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{脉冲轮廓演化的模拟}{58}{section*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{动态谱模拟}{60}{section*.54}
+\contentsline {subsubsection}{动态谱模拟}{61}{section*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}脉冲星高精度测时 —— PTIME软件包}{62}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}脉冲星高精度测时\ ——\ PTIME软件包}{62}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{脉冲星的多频率测时（frequency dependent timing）}{62}{section*.58}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{新的消色散工具}{67}{section*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}模拟和测时软件的应用}{68}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.3}模拟和测时软件的应用}{69}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}FAST与脉冲星测时阵列}{72}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}FAST对PTA研究的贡献}{72}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}FAST对PTA研究的贡献}{73}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{脉冲星时间标准}{75}{section*.63}
 \defcounter {refsection}{0}\relax 
@@ -130,19 +130,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{DM的变化}{83}{section*.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{本征测时噪声}{85}{section*.73}
+\contentsline {subsubsection}{本征测时噪声}{84}{section*.73}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.3}由FAST组建的PTA}{85}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}小节}{88}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.4}小节}{87}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第二章\hspace {0.3em}}光学波段的研究}{89}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}射电脉冲星导致的微引力透镜事件及质量测量}{89}{section.2.1}
+\contentsline {section}{\numberline {2.1}射电脉冲星导致的微引力透镜事件及脉冲星的质量测量}{89}{section.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.1}中子星导致的photometric microlensing事件的性质}{90}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{中子星的分布模型}{90}{section*.75}
+\contentsline {subsubsection}{中子星的分布模型}{91}{section*.75}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{银河系天体的分布模型}{91}{section*.76}
 \defcounter {refsection}{0}\relax 
@@ -152,9 +152,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{事件时标的分布}{96}{section*.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{中子星导致的事件占银河系总事件的比例}{97}{section*.85}
+\contentsline {subsubsection}{中子星导致的事件占银河系总事件的比例}{98}{section*.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}通过astrometric microlensing测量脉冲星质量}{101}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}通过astrometric microlensing测量脉冲星质量}{102}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Astrometric microlensing模型}{102}{section*.90}
 \defcounter {refsection}{0}\relax 
@@ -168,7 +168,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}谱的性质}{111}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}爆发现象的性质}{114}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}爆发现象的性质}{113}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.3}测时性质}{114}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 

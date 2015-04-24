@@ -11771,6 +11771,30 @@
       \endverb
       \keyw{methods: statistical,pulsars: general,radiation mechanisms: non-thermal}
     \endentry
+    \entry{cordes}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=75515c494c9806a5200aca5fac9039d2}{{Cordes}}{C\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=549b60bf2c53a34eb9e474cd6ff1ad7b}{{Lazio}}{L\bibinitperiod}{T.\bibnamedelimi J.\bibnamedelimi W.}{T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=75515c494c9806a5200aca5fac9039d2}{{Cordes}}{C\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=549b60bf2c53a34eb9e474cd6ff1ad7b}{{Lazio}}{L\bibinitperiod}{T.\bibnamedelimi J.\bibnamedelimi W.}{T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d24ce36c2c213a4051945ef671a32d6f}
+      \strng{fullhash}{d24ce36c2c213a4051945ef671a32d6f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{NE2001.I. A New Model for the Galactic Distribution of Free Electrons and its Fluctuations}}
+      \field{journaltitle}{ArXiv Astrophysics e-prints}
+      \field{month}{07}
+      \field{title}{{NE2001.I. A New Model for the Galactic Distribution of Free Electrons and its Fluctuations}}
+      \field{userf}{en}
+      \field{year}{2002}
+      \verb{eprint}
+      \verb astro-ph/0207156
+      \endverb
+      \keyw{Astrophysics}
+    \endentry
     \entry{hml+06}{article}{}
       \name{labelname}{5}{}{%
         {{hash=a29e21725ca237892996d31a707cf258}{{Han}}{H\bibinitperiod}{J.\bibnamedelimi L.}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
@@ -18062,30 +18086,6 @@
       \verb 10.1086/172870
       \endverb
       \keyw{Astrometry,Electron Density (Concentration),Free Electrons,Galactic Structure,H Ii Regions,Pulsars,Astronomical Models,Extragalactic Radio Sources,Interstellar Matter,Milky Way Galaxy}
-    \endentry
-    \entry{cordes}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=75515c494c9806a5200aca5fac9039d2}{{Cordes}}{C\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=549b60bf2c53a34eb9e474cd6ff1ad7b}{{Lazio}}{L\bibinitperiod}{T.\bibnamedelimi J.\bibnamedelimi W.}{T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=75515c494c9806a5200aca5fac9039d2}{{Cordes}}{C\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=549b60bf2c53a34eb9e474cd6ff1ad7b}{{Lazio}}{L\bibinitperiod}{T.\bibnamedelimi J.\bibnamedelimi W.}{T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{d24ce36c2c213a4051945ef671a32d6f}
-      \strng{fullhash}{d24ce36c2c213a4051945ef671a32d6f}
-      \field{sortinit}{0}
-      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
-      \field{labeltitle}{{NE2001.I. A New Model for the Galactic Distribution of Free Electrons and its Fluctuations}}
-      \field{journaltitle}{ArXiv Astrophysics e-prints}
-      \field{month}{07}
-      \field{title}{{NE2001.I. A New Model for the Galactic Distribution of Free Electrons and its Fluctuations}}
-      \field{userf}{en}
-      \field{year}{2002}
-      \verb{eprint}
-      \verb astro-ph/0207156
-      \endverb
-      \keyw{Astrophysics}
     \endentry
     \entry{Chatterjee04}{article}{}
       \name{labelname}{6}{}{%
