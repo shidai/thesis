@@ -154,7 +154,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{中子星导致的事件占银河系总事件的比例}{98}{section*.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}通过astrometric microlensing测量脉冲星质量}{102}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}通过astrometric microlensing测量脉冲星质量}{100}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Astrometric microlensing模型}{102}{section*.90}
 \defcounter {refsection}{0}\relax 
